@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back2"
+    android:orientation="vertical"
+    android:weightSum="5"
+    >
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:src="@mipmap/state" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#33e095"
+            android:text="  OFF\\ON:"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/state1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#42c01c"
+            android:text="        ON"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_weight="1"
+            android:background="#33e095"
+            android:text="  GPS:"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/stategps"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_weight="1"
+            android:background="#42c01c"
+            android:paddingTop="10dp"
+            android:text="222.1121;221.3223"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EnTech</string>
+    <string name="title_activity_stop">EnTech</string>
+    <string name="title_activity_set">EnTech</string>
+    <string name="title_activity_admini">EnTech</string>
+    <string-array name="equip">
+        <item>\tEquipment</item>
+        <item>ProjectADEN</item>
+    </string-array>
+    <string name="title_activity_situa">EnTech</string>
+</resources>
